@@ -7,6 +7,8 @@
                         $ionicConfigProvider, 
                         $compileProvider) {
 
+        console.log("teste2");
+
         $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|file|blob|content|ms-appx|x-wmapp0):|data:image\/|img\//);
         $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 
